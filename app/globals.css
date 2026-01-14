@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 222 47% 11%;
+    --foreground: 213 27% 84%;
+  }
+}
+
+body {
+  color: rgb(var(--foreground));
+  background: #0a192f;
+  overflow-x: hidden;
+}
+
+@layer utilities {
+  .glass {
+    @apply bg-opacity-10 backdrop-blur-lg bg-white border border-white/20 shadow-lg;
+  }
+  .neon-text {
+    text-shadow: 0 0 10px #64ffda, 0 0 20px #64ffda;
+  }
+  .neon-border {
+    box-shadow: 0 0 5px #64ffda, 0 0 10px #64ffda;
+  }
+}
