@@ -7,7 +7,8 @@ export default function Terms() {
         <Link href="/" className="text-primary hover:underline mb-8 block">&larr; Back to Home</Link>
         <h1 className="text-4xl font-bold text-white mb-8">Terms and Conditions</h1>
         
-        <div className="space-y-8">
+        <div className="space-y-8 bg-white/5 p-8 rounded-2xl border border-white/10">
+          <p className="text-sm text-gray-400">Last updated on 15-01-2026</p>
           <section>
             <h2 className="text-2xl font-bold text-white mb-4">1. Introduction</h2>
             <p>Welcome to ClicknBuy Elektronics. By using our website and services, you agree to these terms.</p>

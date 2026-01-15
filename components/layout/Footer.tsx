@@ -21,6 +21,8 @@ const Footer = () => {
               <li><Link href="#products" className="hover:text-primary transition-colors">Products</Link></li>
               <li><Link href="#services" className="hover:text-primary transition-colors">Services</Link></li>
               <li><Link href="/terms" className="hover:text-primary transition-colors">Terms & Conditions</Link></li>
+              <li><Link href="/refund" className="hover:text-primary transition-colors">Refund Policy</Link></li>
+              <li><Link href="/contact" className="hover:text-primary transition-colors">Contact Us</Link></li>
             </ul>
           </div>
           
@@ -29,15 +31,15 @@ const Footer = () => {
             <ul className="space-y-4 text-sm text-gray-400">
               <li className="flex items-center space-x-3">
                 <Phone size={18} className="text-primary" />
-                <span>+91 98765 43210</span>
+                <span>+91 63051 08669</span>
               </li>
-              <li className="flex items-center space-x-3">
-                <MapPin size={18} className="text-primary" />
-                <span>123 Tech Park, Innovation Street, Electronics City</span>
+              <li className="flex items-start space-x-3">
+                <MapPin size={18} className="text-primary shrink-0 mt-1" />
+                <span>11-31/1, Sanjay Gandhi Nagar Shapur Nagar, Hyderabad, Telangana, PIN: 500055</span>
               </li>
               <li className="flex items-center space-x-3">
                 <Mail size={18} className="text-primary" />
-                <span>contact@clicknbuy.com</span>
+                <span>clicknbuyelektronics@gmail.com</span>
               </li>
             </ul>
           </div>

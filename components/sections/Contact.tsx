@@ -34,7 +34,7 @@ const Contact = () => {
                       </div>
                       <div>
                          <p className="text-sm text-gray-500">Phone</p>
-                         <p className="font-bold">+91 98765 43210</p>
+                         <p className="font-bold">+91 63051 08669</p>
                       </div>
                    </div>
                    
@@ -43,8 +43,8 @@ const Contact = () => {
                          <MapPin size={24} />
                       </div>
                       <div>
-                         <p className="text-sm text-gray-500">Location</p>
-                         <p className="font-bold">Electronics City, Bangalore</p>
+                         <p className="text-sm text-gray-500">Registered Address</p>
+                         <p className="font-bold">11-31/1, Sanjay Gandhi Nagar Shapur Nagar, Hyderabad, Telangana</p>
                       </div>
                    </div>
                 </div>
